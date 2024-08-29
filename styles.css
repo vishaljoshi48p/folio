@@ -1,0 +1,112 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(135deg, #333 0%, #000 100%); /* Gradient background */
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+
+header .logo img {
+    width: 120px; /* Larger logo */
+    height: auto;
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Headings */
+h1 {
+    margin-top: 15px;
+    font-size: 32px; /* Larger main heading */
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px; /* Larger section headings */
+    font-weight: bold;
+    margin-bottom: 10px; /* Space below heading */
+}
+
+/* Section Styling */
+section {
+    padding: 25px;
+    background-color: #111;
+    color: #fff;
+    margin: 20px auto; /* Increased margin for better spacing */
+    border-radius: 10px; /* Rounded corners */
+    max-width: 1000px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+
+/* Portfolio Items */
+.portfolio-item {
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.portfolio-item img {
+    width: auto;
+    height: auto;
+    max-width: 400px; /* Larger image size */
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.3s; /* Smooth zoom effect */
+}
+
+.portfolio-item img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Links */
+.portfolio-item a {
+    color: #fff;
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+.portfolio-item a:hover {
+    color: #0a74da; /* Change color on hover */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 25px;
+    background: linear-gradient(135deg, #333 0%, #000 100%); /* Gradient background */
+    color: #fff;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+
+footer .social-links img {
+    width: 40px; /* Larger icons */
+    height: 40px;
+    margin: 0 12px; /* Increased spacing between icons */
+    filter: invert(100%);
+    transition: filter 0.3s;
+}
+
+footer .social-links img:hover {
+    filter: invert(70%);
+}
+
+footer p {
+    margin: 12px 0;
+    font-size: 18px;
+}
