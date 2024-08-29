@@ -158,12 +158,15 @@ section h2 {
 }
 
 .portfolio-item a {
-    color: #0a74da;
+    color: #fff; /* Set font color to white */
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
 }
 
+.portfolio-item a:hover {
+    text-decoration: underline;
+}
 .portfolio-item a:hover {
     text-decoration: underline;
 }
@@ -274,4 +277,13 @@ footer .social-links img {
 
 #contact .social-links img:hover {
     filter: invert(70%);
+}
+#contact a {
+    color: #fff; /* Set font color to white for contact links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Optional: make the links bold */
+}
+
+#contact a:hover {
+    text-decoration: underline; /* Optional: underline on hover */
 }
